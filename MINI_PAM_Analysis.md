@@ -56,3 +56,4 @@ mindmap
       안테나 분리<br/>(Antenna Detachment)
         물리적 구조 파괴
         Negative NPQ 및 Fm' 증가의 직접적 원인
+```
