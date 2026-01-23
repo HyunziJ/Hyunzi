@@ -1,4 +1,4 @@
-# MINI PAM 건조 스트레스 분석 마인드맵
+# MINI PAM 건조 스트레스 분석 결과
 
 ```mermaid
 mindmap
@@ -55,4 +55,4 @@ mindmap
         암적응 중 Fo 값 불안정/상승의 원인
       안테나 분리<br/>(Antenna Detachment)
         물리적 구조 파괴
-        Negative NPQ 및 Fm' 증가의 직접적 원인```
+        Negative NPQ 및 Fm' 증가의 직접적 원인
