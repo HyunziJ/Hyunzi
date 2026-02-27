@@ -225,12 +225,12 @@
         </section>
 
         <main class="info-section" id="about">
-            <!-- 요청하신 고정 텍스트 블록 시작 -->
+            <!-- 고정 텍스트 블록 시작 -->
             <div class="info-item">
                 <span class="title">Education</span>
                 <span class="desc">
                     <strong>한림대학교</strong>(2022 ~ )<br>
-                    4학년 재학 중. 환경생명공학과(주전공)<br>
+                    3학년 재학 중. 환경생명공학과(주전)<br>
                     디지털인문예술전공(복수전공)<br><br>
                     <strong>마석고등학교</strong> (2022 졸업)<br>
                     <strong>천마중학교</strong> (2019 졸업)
@@ -246,7 +246,7 @@
             <div class="info-item">
                 <span class="title">Professional Experience</span>
                 <span class="desc">
-                    한림대학교 대기해양관측 연구실 학부 연구생 (2026.01.05~ 진행중)<br>
+                    한림대학교 대기해양관측 연구실 학부생 (2025.01.05 ~ 예정)<br>
                     한림대학교 봄내 아카데미 강의 보조 근로 (2025)<br>
                     한림대학교 입학처 사무보조 근로장학생 (2023)
                 </span>
@@ -254,7 +254,6 @@
             <div class="info-item">
                 <span class="title">Activity Archive</span>
                 <span class="desc">
-                    한림대학교 대기해양관측 연구실 학부 연구생(2026~)<br>
                     한림대학교 봄내 아카데미 강의 보조 (2025)<br>
                     한림대학교 환경생명공학과 총무부장 (2025)<br>
                     한림대학교 환경생명공학과 홍보부장 (2023)<br>
@@ -263,12 +262,24 @@
                     한림대학교 환경생명공학과 홍보부원 (2022)
                 </span>
             </div>
-            <!-- 요청하신 고정 텍스트 블록 끝 -->
+            <!-- 고정 텍스트 블록 끝 -->
 
             <h2 class="section-header" id="projects">PROJECTS</h2>
 
             <div class="project-grid">
-                <!-- 신규: LOAS 2차 브리핑 (2026 동계방학) -->
+                <!-- 신규: LOAS 4차 브리핑 -->
+                <a href="https://www.figma.com/deck/bGAQpWuag1kaIrpoxFctq7/-LOAS--4%EC%B0%A8-%EB%B8%8C%EB%A6%AC%ED%95%91?node-id=1-716&viewport=-158%2C-123%2C0.73&t=ZjC7q2cw08bIhCrI-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" class="card">
+                    <h3>LOAS Project<br>4th Briefing</h3>
+                    <span style="color: rgba(255,255,255,0.3); font-size: 0.8rem;">2026 WINTER VACATION ↗</span>
+                </a>
+
+                <!-- 신규: LOAS 3차 브리핑 -->
+                <a href="https://www.figma.com/deck/ybs0YbnjvTFW63q49aHBbx/-LOAS--3%EC%B0%A8-%EB%B8%8C%EB%A6%AC%ED%95%91?node-id=1-767&viewport=-158%2C-124%2C0.73&t=C9ACaBZvZSAlpUlT-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" class="card">
+                    <h3>LOAS Project<br>3rd Briefing</h3>
+                    <span style="color: rgba(255,255,255,0.3); font-size: 0.8rem;">2026 WINTER VACATION ↗</span>
+                </a>
+
+                <!-- 이전 브리핑 자료들 -->
                 <a href="https://www.figma.com/deck/FMibHWOsCyxi3fiGZIUFPp/-LOAS--2%EC%B0%A8-%EB%B8%8C%EB%A6%AC%ED%95%91?node-id=3-26&viewport=-160%2C-127%2C0.73&t=afUF8bCKHwfaCKOs-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank" class="card">
                     <h3>LOAS Project<br>2nd Briefing</h3>
                     <span style="color: rgba(255,255,255,0.3); font-size: 0.8rem;">2026 WINTER VACATION ↗</span>
@@ -279,6 +290,7 @@
                     <span style="color: rgba(255,255,255,0.3); font-size: 0.8rem;">2026 WINTER VACATION ↗</span>
                 </a>
 
+                <!-- 기존 프로젝트들 -->
                 <a href="https://h20223732kr.notion.site/AI-1ec3638ab5f58013b879e4c704f7e0df" target="_blank" class="card">
                     <h3>AI Convergence</h3>
                     <span style="color: rgba(255,255,255,0.3); font-size: 0.8rem;">2025 1st SEMESTER ↗</span>
@@ -312,13 +324,12 @@
             const card = document.createElement('div');
             card.className = 'photo-card';
             
-            // 사진 크기 축소 (너비 90~160, 높이 130~230)
             const w = Math.floor(Math.random() * 70) + 90;
             const h = Math.floor(Math.random() * 100) + 130;
             card.style.width = w + 'px';
             card.style.height = h + 'px';
             
-            card.style.backgroundImage = `url('https://picsum.photos/seed/${i + 888}/${w}/${h}')`;
+            card.style.backgroundImage = `url('https://picsum.photos/seed/${i + 999}/${w}/${h}')`;
             
             const angle = i * (Math.PI * 2 / 12) + (Math.random() * 2);
             const radius = 500 + (Math.random() * 700);
